@@ -1,0 +1,74 @@
+/* font-family: 'Russo One', sans-serif;
+font-family: 'Sarabun', sans-serif; */
+
+body {
+    background-color: rgba(171, 166, 166, 0.349);
+}
+
+
+.tituloNavegador {
+    color: #EC1B23;
+    margin: 10px 10px 10px 10px;
+    padding: 3px;
+    width: 250px;
+    height: 100px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    font-size:80px;
+    text-decoration: none;
+}
+
+main {
+    background-color:rgba(211, 211, 211, 0.419)
+}
+
+.imagenPrincipal {
+    width: 1280px;
+    height: 900px;
+}
+
+nav{
+    background-color: #000000;
+}
+
+.navegador {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+
+.menuNavegable {
+    list-style: none;
+    display: inline;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.menuNavegable li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+ul li a {
+    color: #EC1B23;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+} 
+
+.serviciosPrincipal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.galeriaFotos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.imagenGaleria{
+    width: 70%;
+}
